@@ -1,0 +1,69 @@
+
+table{
+    width: 100%;
+    /* border-collapse: collapse; */
+    margin-bottom: 30px;
+}
+table th,td{
+    /* border: 1px solid black; */
+    height: 30px;
+}
+table th:first-child{
+    width: 8%;
+}
+table>thead>tr:first-child{
+    background-color: rgb(28, 33, 31);
+    color: white;
+}
+table>tbody>tr:nth-of-type(even){
+    background-color: rgb(210, 248, 223);
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgb(41, 43, 41);
+    background-color: rgb(28, 33, 31);
+    color: white;
+    margin: 10px 3px;
+}
+
+.content{
+    margin-top: 30px;
+    border: 1px solid gray;
+    box-shadow: 10px 10px 10px gray;
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    font-size: large;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.writer{
+    text-align: right;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.con{
+    margin-bottom: 30px;
+    height: 100px;
+}
+.content input{
+    box-sizing: border-box;
+    width: 80%;
+    height: 50px;
+    padding: 5px;
+    margin: 10px 30px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+.textarea{
+    width: 80%;
+    height: 100px;
+    outline: none;
+    border: none;
+}
